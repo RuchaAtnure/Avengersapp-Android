@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_marginLeft="120dp"
+        android:textSize="30sp"
+        android:padding="8dp"
+        android:layout_alignParentTop="true"
+        android:textColor="#0d47a1"/>
+
+    <TextView
+        android:id="@+id/textsubheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello android!!"
+        android:layout_below="@+id/txtheader"
+        android:layout_marginLeft="120dp"
+        android:textSize="30sp"
+        android:textColor="#0d47a1"/>
+
+    <ImageView
+        android:id="@+id/imgtonyshark"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_margin="40sp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/tony_shark"/>
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:layout_below="@+id/textsubheader"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:layout_below="@+id/etname"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btnclickhere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Click here"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
